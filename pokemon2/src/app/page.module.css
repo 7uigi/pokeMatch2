@@ -1,0 +1,60 @@
+.container {
+  padding: 40px;
+  font-family: Arial;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 8px 12px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.edit {
+  margin-right: 10px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
